@@ -89,7 +89,7 @@ fn day2(){
                 complete = true;
             }
             else {
-                println!("noun: {}, verb: {}, output: {}", noun, verb, int_codes[0]);
+                //println!("noun: {}, verb: {}, output: {}", noun, verb, int_codes[0]);
                 int_codes = get_int_codes();
                 instruction = 0;
                 if verb == 99{
